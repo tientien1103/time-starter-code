@@ -34,9 +34,10 @@ h1 {
 }
 
 p {
-  color: #ffffff;
   font-family: "Carme", sans-serif;
   font-size: 16px;
+  padding: 5px;
+  color: white;
 }
 
 .container {
@@ -56,6 +57,7 @@ p {
 }
 .timer__display {
   padding-left: 1.5em;
+  display: flex;
 }
 .timer__display > p {
   font-size: 5em;
@@ -107,4 +109,17 @@ p {
     font-size: 3.8em;
     padding-left: 0;
   }
+}
+ul {
+  justify-content: center;
+}
+li {
+  list-style: none;
+}
+.split_list_display > p {
+  font-size: 3em;
+}
+.split_list_display {
+  display: flex;
+  justify-content: center;
 }
